@@ -1,3 +1,8 @@
 .env
 *.log
 logs/
+.venv/
+.env.staging
+.env.deploy
+__pycache__/
+*.pyc
