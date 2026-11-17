@@ -1,0 +1,8 @@
+services:
+  api:
+    image: ghcr.io/tasnime-eljed/campus-tasks:${IMAGE_TAG}
+    ports:
+      - "8083:8080"
+    env_file:
+      - .env.staging
+    restart: unless-stopped
